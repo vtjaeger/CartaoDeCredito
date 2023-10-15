@@ -11,6 +11,13 @@ public class Compra implements Comparable<Compra> {
         this.valor = valor;
     }
 
+    //PARA COMECAR COM LIMITE:
+    //alterar no main: sem argumento, tirar sout de limite
+//    public CartaoDeCredito() {
+//        this.saldo = 200;
+//        this.compras = new ArrayList<>();
+//    }
+
     public String getProduto() {
         return produto;
     }
